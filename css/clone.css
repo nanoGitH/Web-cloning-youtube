@@ -1,0 +1,95 @@
+:root {
+    --red: #FF1E00;
+    --white: #E8F9FD;
+    --cream: #59CE8F;
+    --black: #000000;
+}
+body {
+    background-color: var(--black);
+}
+body a, body p {
+    color: var(--white) !important;
+    text-decoration: none;
+}
+i {
+    color: var(--white);
+}
+
+nav {
+    background-color: var(--black);
+}
+.navbar-container {
+    display: flex !important;
+}
+nav a, nav i {
+    font-size: 20px;
+}
+.navbar-search {
+    margin-left: 180px;
+}
+nav input {
+    background-color: transparent !important;
+    border-radius: 40px 0 0 40px !important;
+}
+nav .button-input {
+    border-radius: 0 40px 40px 0 !important;
+}
+
+.sidebar-main li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+.sidebar-main i {
+    font-size: 1.3rem;
+    padding-right: 20px;
+}
+.sidebar-main p {
+    display: inline;
+    margin: 0;
+}
+.sidebar-main .bi-chevron-right {
+    font-size: 14px !important;
+    margin-left: 10px;
+}
+.sidebar-main .bi-chevron-down {
+    font-size: 14px !important;
+    padding: 0 5px;
+    margin-right: 17px;
+}
+
+.sidebar-main .link-groups .groupss a {
+    color: rgb(159, 159, 159) !important;
+    font-size: 13px;
+    font-weight: bold;
+}
+.sidebar-main .link-groups .groupss p {
+    color: rgb(125, 125, 125) !important;
+    font-size: 13px;
+}
+
+.sidebar-main .thumbnail-image {
+    border-radius: 3%;
+}
+
+.button-group-section button {
+    background-color: rgb(76, 76, 76);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+.main-video-section h5 {
+    color: var(--white);
+    font-size: 1.2rem;
+}
+.video-description p {
+    color: rgb(159, 159, 159) !important;
+    font-size: 14px;
+}
+.video-description span,
+.video-description i {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
